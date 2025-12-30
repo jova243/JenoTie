@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JenoTie</title>
+    <link rel="icon" type="image/png" href="jeno_1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+        header h1{
+            background-color: black;
+            color:rgb(240, 193, 99) ;
+            margin-bottom:10px;
+        }
+     main {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .article {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .article img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .article h2 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+
+    .article p {
+      color: #555;
+      font-weight: bold;
+    }
+
+    .btn-whatsapp {
+      display: inline-block;
+      margin-top: 8px;
+      background-color: rgb(37, 211, 102);
+      color: white;
+      border: none;
+      padding: 8px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn-whatsapp:hover {
+      background-color: rgb(18, 140, 75);
+    }
+
+    /* Effet d’agrandissement */
+    .article.active {
+      transform: scale(1.3);
+      z-index: 10;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+    }
+
+    /* ✅ Responsive */
+    @media (max-width: 600px) {
+      main {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+      .article img { height: 100px; }
+      .article h2 { font-size: 14px; }
+      .article p { font-size: 12px; }
+    }
+
+    @media (max-width: 400px) {
+      main {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    p{
+        font-size: 2em;
+        color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header><h1>JenoTie <i class="fa-solid fa-crown"></i></h1></header>
+  <main>
+    <div class="article">
+      <img src="S_1.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_2.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_3.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_4.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_5.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_6.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_7.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_8.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_9.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_10.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_11.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+     <div class="article">
+      <img src="S_12.jpg" alt="Casquette stylée">
+      <a href="https://wa.me/243890156597" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Acheter
+      </a>
+    </div>
+  </main>
+
+</body>
+</html>
+       
